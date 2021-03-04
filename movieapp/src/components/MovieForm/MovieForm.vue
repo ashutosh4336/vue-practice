@@ -39,6 +39,7 @@ export default {
   methods: {
     onSubmit: function () {
       console.log("submitting");
+      // @ts-ignore
       this.addMovie({
         name: this.name,
         url: this.url,
