@@ -37,7 +37,7 @@ export default {
   name: "Movie List",
   props: ["movies", "deleteMovie"],
   methods: {
-    formatDate: function (date) {
+    formatDate: function (/** @type {number | Date} */ date) {
       return format(date, "yyyy dd MMMM h:mm");
     },
   },
