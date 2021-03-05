@@ -21,7 +21,7 @@
             <a
               v-on:click="deleteMovie(movie.id)"
               target="_blank"
-              class="btn btn-outline-danget btn-block"
+              class="btn btn-outline-danger btn-block"
               >Delete Movie</a
             >
           </div>
